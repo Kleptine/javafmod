@@ -1,0 +1,22 @@
+apply plugin: 'java'
+
+version = '1.0'
+
+sourceSets.main.java.srcDir 'src'
+
+repositories {
+    mavenCentral()
+}
+
+task packageNatives(type: Jar) {
+    from files("lib")
+    archiveName "javafmod-natives-desktop.jar"
+}
+
+jar {
+    dependsOn packageNatives
+    manifest {
+        attributes("Implementation-Title": "JavaFmod",
+                   "Implementation-Version": 0.1)
+    }
+}
