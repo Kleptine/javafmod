@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9836F0F6-C34E-42FF-B2F5-B33EF6C9F0D3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>javafmod</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B059B2CAA3099CD634119A25DA415D14B2060EA2</key>
+		<string>https://github.com/Kleptine/aeronautical.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Misc Projects/swig/javafmod/javafmod.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B059B2CAA3099CD634119A25DA415D14B2060EA2</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Kleptine/aeronautical.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B059B2CAA3099CD634119A25DA415D14B2060EA2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B059B2CAA3099CD634119A25DA415D14B2060EA2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>aeronautical</string>
+		</dict>
+	</array>
+</dict>
+</plist>

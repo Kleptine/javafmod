@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9053EDC1A9AFEB2008978C7 /* javafmod_wrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9053EDB1A9AFEB2008978C7 /* javafmod_wrap.cpp */; };
+		C9053F291A9B0DDD008978C7 /* libfmod_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9053F251A9B0DDD008978C7 /* libfmod_iphoneos.a */; };
+		C9053F2B1A9B0DDD008978C7 /* libfmodstudio_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9053F271A9B0DDD008978C7 /* libfmodstudio_iphoneos.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C903BAF21A96E78000AFEC2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C903BAF41A96E78000AFEC2A /* libjavafmod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libjavafmod.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9053ECD1A9AFEB2008978C7 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		C9053ECE1A9AFEB2008978C7 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+		C9053ECF1A9AFEB2008978C7 /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		C9053ED01A9AFEB2008978C7 /* fmod_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_common.h; sourceTree = "<group>"; };
+		C9053ED11A9AFEB2008978C7 /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		C9053ED21A9AFEB2008978C7 /* fmod_dsp_effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp_effects.h; sourceTree = "<group>"; };
+		C9053ED31A9AFEB2008978C7 /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		C9053ED41A9AFEB2008978C7 /* fmod_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_ios.h; sourceTree = "<group>"; };
+		C9053ED51A9AFEB2008978C7 /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		C9053ED61A9AFEB2008978C7 /* fmod_studio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_studio.h; sourceTree = "<group>"; };
+		C9053ED71A9AFEB2008978C7 /* fmod_studio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod_studio.hpp; sourceTree = "<group>"; };
+		C9053ED81A9AFEB2008978C7 /* fmod_studio_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_studio_common.h; sourceTree = "<group>"; };
+		C9053ED91A9AFEB2008978C7 /* fsbank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fsbank.h; sourceTree = "<group>"; };
+		C9053EDA1A9AFEB2008978C7 /* fsbank_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fsbank_errors.h; sourceTree = "<group>"; };
+		C9053EDB1A9AFEB2008978C7 /* javafmod_wrap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = javafmod_wrap.cpp; sourceTree = "<group>"; };
+		C9053F251A9B0DDD008978C7 /* libfmod_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_iphoneos.a; sourceTree = "<group>"; };
+		C9053F261A9B0DDD008978C7 /* libfmodL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_iphoneos.a; sourceTree = "<group>"; };
+		C9053F271A9B0DDD008978C7 /* libfmodstudio_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudio_iphoneos.a; sourceTree = "<group>"; };
+		C9053F281A9B0DDD008978C7 /* libfmodstudioL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudioL_iphoneos.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C903BAF11A96E78000AFEC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9053F2B1A9B0DDD008978C7 /* libfmodstudio_iphoneos.a in Frameworks */,
+				C9053F291A9B0DDD008978C7 /* libfmod_iphoneos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C903BAEB1A96E78000AFEC2A = {
+			isa = PBXGroup;
+			children = (
+				C9053F241A9B0DDD008978C7 /* lib */,
+				C9053ECC1A9AFEB2008978C7 /* src */,
+				C903BAF51A96E78000AFEC2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C903BAF51A96E78000AFEC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C903BAF41A96E78000AFEC2A /* libjavafmod.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9053ECC1A9AFEB2008978C7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C9053ECD1A9AFEB2008978C7 /* fmod.h */,
+				C9053ECE1A9AFEB2008978C7 /* fmod.hpp */,
+				C9053ECF1A9AFEB2008978C7 /* fmod_codec.h */,
+				C9053ED01A9AFEB2008978C7 /* fmod_common.h */,
+				C9053ED11A9AFEB2008978C7 /* fmod_dsp.h */,
+				C9053ED21A9AFEB2008978C7 /* fmod_dsp_effects.h */,
+				C9053ED31A9AFEB2008978C7 /* fmod_errors.h */,
+				C9053ED41A9AFEB2008978C7 /* fmod_ios.h */,
+				C9053ED51A9AFEB2008978C7 /* fmod_output.h */,
+				C9053ED61A9AFEB2008978C7 /* fmod_studio.h */,
+				C9053ED71A9AFEB2008978C7 /* fmod_studio.hpp */,
+				C9053ED81A9AFEB2008978C7 /* fmod_studio_common.h */,
+				C9053ED91A9AFEB2008978C7 /* fsbank.h */,
+				C9053EDA1A9AFEB2008978C7 /* fsbank_errors.h */,
+				C9053EDB1A9AFEB2008978C7 /* javafmod_wrap.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C9053F241A9B0DDD008978C7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C9053F251A9B0DDD008978C7 /* libfmod_iphoneos.a */,
+				C9053F261A9B0DDD008978C7 /* libfmodL_iphoneos.a */,
+				C9053F271A9B0DDD008978C7 /* libfmodstudio_iphoneos.a */,
+				C9053F281A9B0DDD008978C7 /* libfmodstudioL_iphoneos.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C903BAF31A96E78000AFEC2A /* javafmod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C903BB081A96E78000AFEC2A /* Build configuration list for PBXNativeTarget "javafmod" */;
+			buildPhases = (
+				C903BAF01A96E78000AFEC2A /* Sources */,
+				C903BAF11A96E78000AFEC2A /* Frameworks */,
+				C903BAF21A96E78000AFEC2A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = javafmod;
+			productName = javafmodios;
+			productReference = C903BAF41A96E78000AFEC2A /* libjavafmod.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C903BAEC1A96E78000AFEC2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Matt Blair";
+				TargetAttributes = {
+					C903BAF31A96E78000AFEC2A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C903BAEF1A96E78000AFEC2A /* Build configuration list for PBXProject "javafmod_ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C903BAEB1A96E78000AFEC2A;
+			productRefGroup = C903BAF51A96E78000AFEC2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C903BAF31A96E78000AFEC2A /* javafmod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C903BAF01A96E78000AFEC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9053EDC1A9AFEB2008978C7 /* javafmod_wrap.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C903BB061A96E78000AFEC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C903BB071A96E78000AFEC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C903BB091A96E78000AFEC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include,
+					/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include/darwin,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					lib,
+					"$(PROJECT_DIR)/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lfmodL_$PLATFORM_NAME",
+					"-lfmodstudioL_$PLATFORM_NAME",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C903BB0A1A96E78000AFEC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include,
+					/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include/darwin,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					lib,
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lfmod_$PLATFORM_NAME",
+					"-fmodstudio_$PLATFORM_NAME",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C903BAEF1A96E78000AFEC2A /* Build configuration list for PBXProject "javafmod_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C903BB061A96E78000AFEC2A /* Debug */,
+				C903BB071A96E78000AFEC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C903BB081A96E78000AFEC2A /* Build configuration list for PBXNativeTarget "javafmod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C903BB091A96E78000AFEC2A /* Debug */,
+				C903BB0A1A96E78000AFEC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C903BAEC1A96E78000AFEC2A /* Project object */;
+}

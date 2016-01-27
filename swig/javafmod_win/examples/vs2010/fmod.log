@@ -1,0 +1,446 @@
+FMOD: System::create                 : Header version = 1.4.5.  Current version = 1.4.5.
+FMOD: SystemI::init                  : FMOD Studio Version: 00010405 (56329)
+FMOD: SystemI::init                  : maxchannels = 32, flags = 00000000, extradriverdata = 00000000
+FMOD: SystemI::close                 : 
+FMOD: SystemI::close                 : Stop all sounds
+FMOD: SystemI::close                 : Remove miscllaneous DSP stuff.
+FMOD: SystemI::close                 : done.
+
+FMOD: SystemI::init                  : Set up software engine
+FMOD: OutputWASAPI::enumerate        : Found Driver: 'Speakers (3- USB Sound Device        )'.
+FMOD: OutputWASAPI::enumerate        : Found Driver: 'Speakers (Conexant 20672 SmartAudio HD)'.
+FMOD: OutputWASAPI::enumerate        : Found Driver: 'Internal Microphone (Conexant 20672 SmartAudio HD)'.
+FMOD: OutputWASAPI::init             : Output requires a sample rate of 44100Hz, resampling will occur.
+FMOD: OutputWASAPI::init             : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=44100, nAvgBytesPerSec=352800, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+FMOD: OutputWASAPI::init             : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+FMOD: Thread::initThread             : Initializing FMOD (WASAPI) feeder thread.  priority 0
+FMOD: Thread::initThread             : - Stacksize 0.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 0
+FMOD: Thread::callback               : * FMOD (WASAPI) feeder thread started
+FMOD: Thread::initThread             : done.
+FMOD: Thread::initThread             : Initializing FMOD mixer thread.  priority 2
+FMOD: Thread::initThread             : - Stacksize 49152.  Stack pointer 00000000 : usesemaphore = 1 : sleeptime = 0
+FMOD: OutputWASAPI::feederUpdate     : WASAPI feeder thread set to 'Audio' characteristic
+FMOD: Thread::callback               : * FMOD mixer thread started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::init                  : Set up emulated output
+FMOD: SystemI::init                  : create the channel pool
+FMOD: SystemI::init                  : Set up streamer
+FMOD: Thread::initThread             : Initializing FMOD stream thread.  priority 2
+FMOD: Thread::initThread             : - Stacksize 65536.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 10
+FMOD: Thread::callback               : * FMOD stream thread started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::init                  : done
+
+FMOD: Thread::initThread             : Initializing FMOD studio thread.  priority 0
+FMOD: Thread::initThread             : - Stacksize 49152.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 0
+FMOD: Thread::callback               : * FMOD studio thread started
+FMOD: Thread::initThread             : done.
+FMOD: load                           : fileversion = 50, compatVersion = 50 (oldest = 44, newest = 51)
+FMOD: load                           : fileversion = 50, compatVersion = 50 (oldest = 44, newest = 51)
+FMOD: load                           : fileversion = 50, compatVersion = 50 (oldest = 44, newest = 51)
+FMOD: load                           : fileversion = 50, compatVersion = 50 (oldest = 44, newest = 51)
+FMOD: load                           : fileversion = 51, compatVersion = 50 (oldest = 44, newest = 51)
+FMOD: SystemI::createSound           : filename = ../media/UI_Menu.bank : mode 0a018202
+FMOD: SystemI::createSound           : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+FMOD: OutputSoftware::createSample   : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+FMOD: SystemI::createSound           : allocated async data mem
+FMOD: SystemI::createSound           : getasyncthread
+FMOD: Thread::initThread             : Initializing FMOD nonblocking thread (0).  priority 1
+FMOD: Thread::initThread             : - Stacksize 81920.  Stack pointer 00000000 : usesemaphore = 1 : sleeptime = 0
+FMOD: Thread::callback               : * FMOD nonblocking thread (0) started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::createSound           : setdata soundi = 036F86A0 : node = 036F87E0
+FMOD: SystemI::createSound           : add node to async list : head = 036F8A24.  list count = 0
+FMOD: AsyncThread::threadFunc        : Starting Asynchronous operation on sound 036F86A0
+FMOD: SystemI::createSound           : done
+FMOD: SystemI::createSoundInternal   :     filename = ../media/UI_Menu.bank : mode 0a018202
+FMOD: SystemI::createSound           :     filename = ../media/Weapons.bank : mode 0a018202
+FMOD: SystemI::createSoundInternal   :     exinfo->cbsize             = 140
+FMOD: SystemI::createSound           :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+FMOD: SystemI::createSoundInternal   :     exinfo->length             = 49184
+FMOD: OutputSoftware::createSample   :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+FMOD: SystemI::createSoundInternal   :     exinfo->fileoffset         = 3360
+FMOD: SystemI::createSound           :     allocated async data mem
+FMOD: SystemI::createSoundInternal   :     exinfo->numsubsounds       = 1
+FMOD: SystemI::createSound           :     getasyncthread
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlist      = 036F888C
+FMOD: SystemI::createSound           :     setdata soundi = 036F96E0 : node = 036F9820
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlistnum   = 1
+FMOD: SystemI::createSound           :     add node to async list : head = 036F8A24.  list count = 0
+FMOD: SystemI::createSoundInternal   :     exinfo->suggestedsoundtype = 6
+FMOD: SystemI::createSound           :     done
+FMOD: SystemI::createSoundInternal   :     exinfo->initialseekpostype = 1
+FMOD: SystemI::createSound           :     filename = ../media/Weapons.bank : mode 0a018202
+FMOD: SystemI::createSoundInternal   :     18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSound           :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+FMOD: OutputSoftware::createSample   :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+FMOD: SystemI::createSound           :     allocated async data mem
+FMOD: CodecFSB5::openInternal        :     attempting to open as FSB5..
+FMOD: SystemI::createSound           :     getasyncthread
+FMOD: CodecFSB5::openInternal        :     FSB contains 2 sounds
+FMOD: SystemI::createSound           :     setdata soundi = 036FACE0 : node = 036FAE20
+FMOD: SystemI::createSound           :     add node to async list : head = 036F8A24.  list count = 1
+FMOD: SystemI::createSound           :     done
+FMOD: SystemI::createSound           :     filename = ../media/UI_Menu.bank : mode 0a018202
+FMOD: SystemI::createSound           :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+FMOD: OutputSoftware::createSample   :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+FMOD: SystemI::createSound           :     allocated async data mem
+FMOD: SystemI::createSound           :     getasyncthread
+FMOD: SystemI::createSound           :     setdata soundi = 036FB4E0 : node = 036FB620
+FMOD: SystemI::createSound           :     add node to async list : head = 036F8A24.  list count = 2
+FMOD: SystemI::createSound           :     done
+FMOD: CodecFSB5::openInternal        :     done.
+FMOD: SystemI::createSoundInternal   :     Format has 1 subsounds.
+FMOD: SystemI::createSoundInternal   :     Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   :     Multi-sample sound (1 subsounds), create a sample container.
+FMOD: SystemI::createSoundInternal   :     creating subsound 0/1
+FMOD: SystemI::createSample          :     mode 0a018202 length 49259 samples, lengthbytes 24992
+FMOD: SystemI::createSample          :     subsamples = 1, channels = 2
+FMOD: SystemI::createSample          :     subsample 0.  output = 022FF478
+FMOD: SystemI::createSample          :     mSoftware = 022FF478
+FMOD: OutputSoftware::createSample   :     lengthpcm 49259, lengthbytes 24992, channels 2, format 15, freq 48000, mode 0a01820a
+FMOD: OutputSoftware::createSample   :     done
+FMOD: SystemI::createSample          :     done
+FMOD: CodecFSB5::setPositionInternal :     subsound 0 position 0 postype 8
+FMOD: CodecFSB5::setPositionInternal :     done
+FMOD: SystemI::createSoundInternal   :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: AsyncThread::threadFunc        : Finished Asynchronous operation on sound 036F86A0
+FMOD: AsyncThread::threadFunc        : Starting Asynchronous operation on sound 036F96E0
+FMOD: SystemI::createSoundInternal   :     filename = ../media/Weapons.bank : mode 0a018202
+FMOD: SystemI::createSoundInternal   :     exinfo->cbsize             = 140
+FMOD: SystemI::createSoundInternal   :     exinfo->length             = 249728
+FMOD: SystemI::createSoundInternal   :     exinfo->fileoffset         = 19456
+FMOD: SystemI::createSoundInternal   :     exinfo->numsubsounds       = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlist      = 036F98CC
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlistnum   = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->suggestedsoundtype = 6
+FMOD: SystemI::createSoundInternal   :     exinfo->initialseekpostype = 1
+FMOD: SystemI::createSoundInternal   :     18 codecs found.  Scan all until one succeeds
+FMOD: CodecFSB5::openInternal        :     attempting to open as FSB5..
+FMOD: CodecFSB5::openInternal        :     FSB contains 10 sounds
+FMOD: CodecFSB5::openInternal        :     done.
+FMOD: SystemI::createSoundInternal   :     Format has 1 subsounds.
+FMOD: SystemI::createSoundInternal   :     Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   :     Multi-sample sound (1 subsounds), create a sample container.
+FMOD: SystemI::createSoundInternal   :     creating subsound 0/1
+FMOD: SystemI::createSample          :     mode 0a018202 length 235201 samples, lengthbytes 105504
+FMOD: SystemI::createSample          :     subsamples = 1, channels = 2
+FMOD: SystemI::createSample          :     subsample 0.  output = 022FF478
+FMOD: SystemI::createSample          :     mSoftware = 022FF478
+FMOD: OutputSoftware::createSample   :     lengthpcm 235201, lengthbytes 105504, channels 2, format 15, freq 48000, mode 0a01820a
+FMOD: OutputSoftware::createSample   :     done
+FMOD: SystemI::createSample          :     done
+FMOD: CodecFSB5::setPositionInternal :     subsound 0 position 0 postype 8
+FMOD: CodecFSB5::setPositionInternal :     done
+FMOD: SystemI::createSoundInternal   :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: AsyncThread::threadFunc        : Finished Asynchronous operation on sound 036F96E0
+FMOD: AsyncThread::threadFunc        : Starting Asynchronous operation on sound 036FACE0
+FMOD: SystemI::createSoundInternal   :     filename = ../media/Weapons.bank : mode 0a018202
+FMOD: SystemI::createSoundInternal   :     exinfo->cbsize             = 140
+FMOD: SystemI::createSoundInternal   :     exinfo->length             = 249728
+FMOD: SystemI::createSoundInternal   :     exinfo->fileoffset         = 19456
+FMOD: SystemI::createSoundInternal   :     exinfo->numsubsounds       = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlist      = 036FAECC
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlistnum   = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->suggestedsoundtype = 6
+FMOD: SystemI::createSoundInternal   :     exinfo->initialseekpostype = 1
+FMOD: SystemI::createSoundInternal   :     18 codecs found.  Scan all until one succeeds
+FMOD: CodecFSB5::openInternal        :     attempting to open as FSB5..
+FMOD: CodecFSB5::openInternal        :     FSB contains 10 sounds
+FMOD: CodecFSB5::openInternal        :     done.
+FMOD: SystemI::createSoundInternal   :     Format has 1 subsounds.
+FMOD: SystemI::createSoundInternal   :     Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   :     Multi-sample sound (1 subsounds), create a sample container.
+FMOD: SystemI::createSoundInternal   :     creating subsound 0/1
+FMOD: SystemI::createSample          :     mode 0a018202 length 235201 samples, lengthbytes 99744
+FMOD: SystemI::createSample          :     subsamples = 1, channels = 2
+FMOD: SystemI::createSample          :     subsample 0.  output = 022FF478
+FMOD: SystemI::createSample          :     mSoftware = 022FF478
+FMOD: OutputSoftware::createSample   :     lengthpcm 235201, lengthbytes 99744, channels 2, format 15, freq 48000, mode 0a01820a
+FMOD: OutputSoftware::createSample   :     done
+FMOD: SystemI::createSample          :     done
+FMOD: CodecFSB5::setPositionInternal :     subsound 0 position 0 postype 8
+FMOD: CodecFSB5::setPositionInternal :     done
+FMOD: SystemI::createSoundInternal   :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: AsyncThread::threadFunc        : Finished Asynchronous operation on sound 036FACE0
+FMOD: AsyncThread::threadFunc        : Starting Asynchronous operation on sound 036FB4E0
+FMOD: SystemI::createSoundInternal   :     filename = ../media/UI_Menu.bank : mode 0a018202
+FMOD: SystemI::createSoundInternal   :     exinfo->cbsize             = 140
+FMOD: SystemI::createSoundInternal   :     exinfo->length             = 49184
+FMOD: SystemI::createSoundInternal   :     exinfo->fileoffset         = 3360
+FMOD: SystemI::createSoundInternal   :     exinfo->numsubsounds       = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlist      = 036FB6CC
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlistnum   = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->suggestedsoundtype = 6
+FMOD: SystemI::createSoundInternal   :     exinfo->initialseekpostype = 1
+FMOD: SystemI::createSoundInternal   :     18 codecs found.  Scan all until one succeeds
+FMOD: CodecFSB5::openInternal        :     attempting to open as FSB5..
+FMOD: CodecFSB5::openInternal        :     FSB contains 2 sounds
+FMOD: CodecFSB5::openInternal        :     done.
+FMOD: SystemI::createSoundInternal   :     Format has 1 subsounds.
+FMOD: SystemI::createSoundInternal   :     Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   :     Multi-sample sound (1 subsounds), create a sample container.
+FMOD: SystemI::createSoundInternal   :     creating subsound 0/1
+FMOD: SystemI::createSample          :     mode 0a018202 length 44042 samples, lengthbytes 23936
+FMOD: SystemI::createSample          :     subsamples = 1, channels = 2
+FMOD: SystemI::createSample          :     subsample 0.  output = 022FF478
+FMOD: SystemI::createSample          :     mSoftware = 022FF478
+FMOD: OutputSoftware::createSample   :     lengthpcm 44042, lengthbytes 23936, channels 2, format 15, freq 48000, mode 0a01820a
+FMOD: OutputSoftware::createSample   :     done
+FMOD: SystemI::createSample          :     done
+FMOD: CodecFSB5::setPositionInternal :     subsound 0 position 0 postype 8
+FMOD: CodecFSB5::setPositionInternal :     done
+FMOD: SystemI::createSoundInternal   :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: AsyncThread::threadFunc        : Finished Asynchronous operation on sound 036FB4E0
+FMOD: SystemI::createSound           : filename = ../media/Surround_Ambience.bank : mode 0a018082
+FMOD: SystemI::createSound           : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+FMOD: SystemI::createSound           : allocated async data mem
+FMOD: SystemI::createSound           : getasyncthread
+FMOD: SystemI::createSound           : setdata soundi = 03833598 : node = 038336E8
+FMOD: SystemI::createSound           : add node to async list : head = 036F8A24.  list count = 0
+FMOD: SystemI::createSound           : done
+FMOD: AsyncThread::threadFunc        : Starting Asynchronous operation on sound 03833598
+FMOD: SystemI::createSoundInternal   :     filename = ../media/Surround_Ambience.bank : mode 0a018082
+FMOD: SystemI::createSoundInternal   :     exinfo->cbsize             = 140
+FMOD: SystemI::createSoundInternal   :     exinfo->length             = 22675200
+FMOD: SystemI::createSoundInternal   :     exinfo->fileoffset         = 6816
+FMOD: SystemI::createSoundInternal   :     exinfo->numsubsounds       = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlist      = 03833794
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlistnum   = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->suggestedsoundtype = 6
+FMOD: SystemI::createSoundInternal   :     exinfo->initialseekpostype = 1
+FMOD: SystemI::createSoundInternal   :     18 codecs found.  Scan all until one succeeds
+FMOD: CodecFSB5::openInternal        :     attempting to open as FSB5..
+FMOD: CodecFSB5::openInternal        :     FSB contains 4 sounds
+FMOD: CodecFSB5::openInternal        :     done.
+FMOD: SystemI::createSoundInternal   :     Format has 1 subsounds.
+FMOD: SystemI::createSoundInternal   :     Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    :     decode buffersize = 19200 : blocksize = 256 : format = 2
+FMOD: SystemI::createSample          :     mode 0a018082 length 19200 samples, lengthbytes 7054816
+FMOD: SystemI::createSample          :     subsamples = 1, channels = 6
+FMOD: SystemI::createSample          :     subsample 0.  output = 022FF478
+FMOD: SystemI::createSample          :     mSoftware = 022FF478
+FMOD: OutputSoftware::createSample   :     lengthpcm 19200, lengthbytes 7054816, channels 6, format 2, freq 48000, mode 0a01808a
+FMOD: OutputSoftware::createSample   :     done
+FMOD: SystemI::createSample          :     done
+FMOD: System::createSoundInternal    :     1 subsounds detected.
+FMOD: System::createSoundInternal    :     Seek stream to start
+FMOD: CodecFSB5::setPositionInternal :     subsound 0 position 0 postype 2
+FMOD: CodecFSB5::setPositionInternal :     done
+FMOD: System::createSoundInternal    :     flush stream buffer
+FMOD: System::createSoundInternal    :     flush successful.
+FMOD: System::createSoundInternal    :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: Thread::initThread             :         Initializing FMOD file thread.  priority 1
+FMOD: Thread::initThread             :         - Stacksize 8192.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 10
+FMOD: Thread::callback               :         * FMOD file thread started
+FMOD: Thread::initThread             :         done.
+FMOD: SystemI::createSoundInternal   :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: AsyncThread::threadFunc        : Finished Asynchronous operation on sound 03833598
+FMOD: SoundI::getSubSound            : sound 03833598.  Subsound index 0 / 1
+FMOD: SystemI::createSound           : filename = ../media/Surround_Ambience.bank : mode 0a018082
+FMOD: SystemI::createSound           : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+FMOD: SystemI::createSound           : allocated async data mem
+FMOD: SystemI::createSound           : getasyncthread
+FMOD: SystemI::createSound           : setdata soundi = 038330A0 : node = 038331F0
+FMOD: SystemI::createSound           : add node to async list : head = 036F8A24.  list count = 0
+FMOD: AsyncThread::threadFunc        : Starting Asynchronous operation on sound 038330A0
+FMOD: SystemI::createSound           : done
+FMOD: SystemI::createSoundInternal   :     filename = ../media/Surround_Ambience.bank : mode 0a018082
+FMOD: SoundI::release                :     (null) (03833598)
+FMOD: SystemI::createSoundInternal   :     exinfo->cbsize             = 140
+FMOD: SoundI::release                :     remove stream samples. (03833598)
+FMOD: SystemI::createSoundInternal   :     exinfo->length             = 22675200
+FMOD: SystemI::createSoundInternal   :     exinfo->fileoffset         = 6816
+FMOD: SystemI::createSoundInternal   :     exinfo->numsubsounds       = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlist      = 0383329C
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlistnum   = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->suggestedsoundtype = 6
+FMOD: SystemI::createSoundInternal   :     exinfo->initialseekpostype = 1
+FMOD: SystemI::createSoundInternal   :     18 codecs found.  Scan all until one succeeds
+FMOD: CodecFSB5::openInternal        :     attempting to open as FSB5..
+FMOD: CodecFSB5::openInternal        :     FSB contains 4 sounds
+FMOD: CodecFSB5::openInternal        :     done.
+FMOD: SystemI::createSoundInternal   :     Format has 1 subsounds.
+FMOD: SystemI::createSoundInternal   :     Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    :     decode buffersize = 19200 : blocksize = 256 : format = 2
+FMOD: SystemI::createSample          :     mode 0a018082 length 19200 samples, lengthbytes 7054816
+FMOD: SystemI::createSample          :     subsamples = 1, channels = 6
+FMOD: SystemI::createSample          :     subsample 0.  output = 022FF478
+FMOD: SystemI::createSample          :     mSoftware = 022FF478
+FMOD: OutputSoftware::createSample   :     lengthpcm 19200, lengthbytes 7054816, channels 6, format 2, freq 48000, mode 0a01808a
+FMOD: OutputSoftware::createSample   :     done
+FMOD: SystemI::createSample          :     done
+FMOD: System::createSoundInternal    :     1 subsounds detected.
+FMOD: SoundI::release                :         (null) (03833F10)
+FMOD: System::createSoundInternal    :         Seek stream to start
+FMOD: SoundI::release                :         free this. (03833F10)
+FMOD: CodecFSB5::setPositionInternal :         subsound 0 position 0 postype 2
+FMOD: SoundI::release                :         done (03833F10)
+FMOD: CodecFSB5::setPositionInternal :         done
+FMOD: SoundI::release                :     release subsounds. (03833598)
+FMOD: System::createSoundInternal    :     flush stream buffer
+FMOD: SoundI::release                :         (null) (03890518)
+FMOD: SoundI::release                :         free this. (03890518)
+FMOD: SoundI::release                :         done (03890518)
+FMOD: SoundI::release                :     release codec. (03833598)
+FMOD: Codec::release                 :     
+FMOD: CodecFSB5::closeInternal       :     
+FMOD: Codec::release                 :     
+FMOD: Codec::release                 :     done
+FMOD: CodecFSB5::closeInternal       :     done
+FMOD: Codec::release                 :     Close file (mFile = 038337F8)
+FMOD: Codec::release                 :     done
+FMOD: SoundI::release                :     free this. (03833598)
+FMOD: SoundI::release                :     done (03833598)
+FMOD: System::createSoundInternal    :     flush successful.
+FMOD: System::createSoundInternal    :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: AsyncThread::threadFunc        : Finished Asynchronous operation on sound 038330A0
+FMOD: SoundI::getSubSound            : sound 038330A0.  Subsound index 0 / 1
+FMOD: SystemI::createSound           : filename = ../media/Surround_Ambience.bank : mode 0a018082
+FMOD: SystemI::createSound           : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+FMOD: SystemI::createSound           : allocated async data mem
+FMOD: SystemI::createSound           : getasyncthread
+FMOD: SystemI::createSound           : setdata soundi = 03832CF0 : node = 03832E40
+FMOD: SystemI::createSound           : add node to async list : head = 036F8A24.  list count = 0
+FMOD: AsyncThread::threadFunc        : Starting Asynchronous operation on sound 03832CF0
+FMOD: SystemI::createSound           : done
+FMOD: SystemI::createSoundInternal   :     filename = ../media/Surround_Ambience.bank : mode 0a018082
+FMOD: SoundI::release                :     (null) (038330A0)
+FMOD: SystemI::createSoundInternal   :     exinfo->cbsize             = 140
+FMOD: SoundI::release                :     remove stream samples. (038330A0)
+FMOD: SystemI::createSoundInternal   :     exinfo->length             = 22675200
+FMOD: SystemI::createSoundInternal   :     exinfo->fileoffset         = 6816
+FMOD: SystemI::createSoundInternal   :     exinfo->numsubsounds       = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlist      = 03832EEC
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlistnum   = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->suggestedsoundtype = 6
+FMOD: SystemI::createSoundInternal   :     exinfo->initialseekpostype = 1
+FMOD: SystemI::createSoundInternal   :     18 codecs found.  Scan all until one succeeds
+FMOD: CodecFSB5::openInternal        :     attempting to open as FSB5..
+FMOD: CodecFSB5::openInternal        :     FSB contains 4 sounds
+FMOD: CodecFSB5::openInternal        :     done.
+FMOD: SystemI::createSoundInternal   :     Format has 1 subsounds.
+FMOD: SystemI::createSoundInternal   :     Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    :     decode buffersize = 19200 : blocksize = 256 : format = 2
+FMOD: SystemI::createSample          :     mode 0a018082 length 19200 samples, lengthbytes 7054816
+FMOD: SystemI::createSample          :     subsamples = 1, channels = 6
+FMOD: SystemI::createSample          :     subsample 0.  output = 022FF478
+FMOD: SystemI::createSample          :     mSoftware = 022FF478
+FMOD: OutputSoftware::createSample   :     lengthpcm 19200, lengthbytes 7054816, channels 6, format 2, freq 48000, mode 0a01808a
+FMOD: OutputSoftware::createSample   :     done
+FMOD: SystemI::createSample          :     done
+FMOD: System::createSoundInternal    :     1 subsounds detected.
+FMOD: System::createSoundInternal    :     Seek stream to start
+FMOD: CodecFSB5::setPositionInternal :     subsound 0 position 0 postype 2
+FMOD: CodecFSB5::setPositionInternal :     done
+FMOD: System::createSoundInternal    :     flush stream buffer
+FMOD: SoundI::release                :         (null) (03831518)
+FMOD: SoundI::release                :         free this. (03831518)
+FMOD: SoundI::release                :         done (03831518)
+FMOD: SoundI::release                :     release subsounds. (038330A0)
+FMOD: SoundI::release                :         (null) (038316F8)
+FMOD: SoundI::release                :         free this. (038316F8)
+FMOD: SoundI::release                :         done (038316F8)
+FMOD: SoundI::release                :     release codec. (038330A0)
+FMOD: Codec::release                 :     
+FMOD: CodecFSB5::closeInternal       :     
+FMOD: Codec::release                 :     
+FMOD: Codec::release                 :     done
+FMOD: CodecFSB5::closeInternal       :     done
+FMOD: Codec::release                 :     Close file (mFile = 03833300)
+FMOD: Codec::release                 :     done
+FMOD: SoundI::release                :     free this. (038330A0)
+FMOD: SoundI::release                :     done (038330A0)
+FMOD: System::createSoundInternal    :     flush successful.
+FMOD: System::createSoundInternal    :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: AsyncThread::threadFunc        : Finished Asynchronous operation on sound 03832CF0
+FMOD: SoundI::getSubSound            : sound 03832CF0.  Subsound index 0 / 1
+FMOD: SoundI::release                : (null) (03832CF0)
+FMOD: SoundI::release                : remove stream samples. (03832CF0)
+FMOD: SoundI::release                :     (null) (038339B0)
+FMOD: SoundI::release                :     free this. (038339B0)
+FMOD: SoundI::release                :     done (038339B0)
+FMOD: SoundI::release                : release subsounds. (03832CF0)
+FMOD: SoundI::release                :     (null) (038318E8)
+FMOD: SoundI::release                :     free this. (038318E8)
+FMOD: SoundI::release                :     done (038318E8)
+FMOD: SoundI::release                : release codec. (03832CF0)
+FMOD: Codec::release                 : 
+FMOD: CodecFSB5::closeInternal       : 
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecFSB5::closeInternal       : done
+FMOD: Codec::release                 : Close file (mFile = 03833530)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (03832CF0)
+FMOD: SoundI::release                : done (03832CF0)
+FMOD: SystemI::createSound           : filename = ../media/Surround_Ambience.bank : mode 0a018082
+FMOD: SystemI::createSound           : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+FMOD: SystemI::createSound           : allocated async data mem
+FMOD: SystemI::createSound           : getasyncthread
+FMOD: SystemI::createSound           : setdata soundi = 038310F0 : node = 03831240
+FMOD: SystemI::createSound           : add node to async list : head = 036F8A24.  list count = 0
+FMOD: SystemI::createSound           : done
+FMOD: AsyncThread::threadFunc        : Starting Asynchronous operation on sound 038310F0
+FMOD: SystemI::createSoundInternal   :     filename = ../media/Surround_Ambience.bank : mode 0a018082
+FMOD: SystemI::createSoundInternal   :     exinfo->cbsize             = 140
+FMOD: SystemI::createSoundInternal   :     exinfo->length             = 22675200
+FMOD: SystemI::createSoundInternal   :     exinfo->fileoffset         = 6816
+FMOD: SystemI::createSoundInternal   :     exinfo->numsubsounds       = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlist      = 038312EC
+FMOD: SystemI::createSoundInternal   :     exinfo->inclusionlistnum   = 1
+FMOD: SystemI::createSoundInternal   :     exinfo->suggestedsoundtype = 6
+FMOD: SystemI::createSoundInternal   :     exinfo->initialseekpostype = 1
+FMOD: SystemI::createSoundInternal   :     18 codecs found.  Scan all until one succeeds
+FMOD: CodecFSB5::openInternal        :     attempting to open as FSB5..
+FMOD: CodecFSB5::openInternal        :     FSB contains 4 sounds
+FMOD: CodecFSB5::openInternal        :     done.
+FMOD: SystemI::createSoundInternal   :     Format has 1 subsounds.
+FMOD: SystemI::createSoundInternal   :     Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    :     decode buffersize = 19200 : blocksize = 256 : format = 2
+FMOD: SystemI::createSample          :     mode 0a018082 length 19200 samples, lengthbytes 7054816
+FMOD: SystemI::createSample          :     subsamples = 1, channels = 6
+FMOD: SystemI::createSample          :     subsample 0.  output = 022FF478
+FMOD: SystemI::createSample          :     mSoftware = 022FF478
+FMOD: OutputSoftware::createSample   :     lengthpcm 19200, lengthbytes 7054816, channels 6, format 2, freq 48000, mode 0a01808a
+FMOD: OutputSoftware::createSample   :     done
+FMOD: SystemI::createSample          :     done
+FMOD: System::createSoundInternal    :     1 subsounds detected.
+FMOD: System::createSoundInternal    :     Seek stream to start
+FMOD: CodecFSB5::setPositionInternal :     subsound 0 position 0 postype 2
+FMOD: CodecFSB5::setPositionInternal :     done
+FMOD: System::createSoundInternal    :     flush stream buffer
+FMOD: System::createSoundInternal    :     flush successful.
+FMOD: System::createSoundInternal    :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: AsyncThread::threadFunc        : Finished Asynchronous operation on sound 038310F0
+FMOD: SoundI::getSubSound            : sound 038310F0.  Subsound index 0 / 1
+FMOD: SoundI::release                : (null) (038310F0)
+FMOD: SoundI::release                : remove stream samples. (038310F0)
+FMOD: SoundI::release                :     (null) (03831A68)
+FMOD: SoundI::release                :     free this. (03831A68)
+FMOD: SoundI::release                :     done (03831A68)
+FMOD: SoundI::release                : release subsounds. (038310F0)
+FMOD: SoundI::release                :     (null) (03831C98)
+FMOD: SoundI::release                :     free this. (03831C98)
+FMOD: SoundI::release                :     done (03831C98)
+FMOD: SoundI::release                : release codec. (038310F0)
+FMOD: Codec::release                 : 
+FMOD: CodecFSB5::closeInternal       : 
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecFSB5::closeInternal       : done
+FMOD: Codec::release                 : Close file (mFile = 03831350)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (038310F0)
+FMOD: SoundI::release                : done (038310F0)
